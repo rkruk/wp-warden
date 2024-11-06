@@ -33,7 +33,7 @@ The `version-info.php` script in this repository retrieves version information f
 
 1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/yourusername/version-checker.git
+   git clone https://github.com/rkruk/webby-public.git
    cd version-checker
    ```
 
@@ -48,7 +48,7 @@ pip install requests pytz Jinja2
 - GH_TOKEN: GitHub token for authorization
 - PAGE_SPEED_API_KEY: API key for Google PageSpeed Insights (optional)
 - SAFE_BROWSING_API_KEY: API key for Google Safe Browsing (optional)
-- ENVATO_API_TOKEN: Envato API token for premium plugins and templates
+- ENVATO_API_TOKEN: Envato API token for premium plugins and templates available at Envato website
 - EMAIL_ADDRESS: Email address used for sending notifications
 - EMAIL_PASSWORD: Password for the email address used
 - TO_EMAIL: Recipient email addresses (comma-separated)
