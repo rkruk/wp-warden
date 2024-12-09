@@ -1,0 +1,10 @@
+URL: example.com
+PHP Version: 8.3.4
+WordPress Version: 6.5.3
+Checked At: 25/05/2024 23:20
+----------------------------------------
+URL: test.net
+PHP Version: 8.3.4
+WordPress Version: 6.5.3
+Checked At: 25/05/2024 23:20
+----------------------------------------
