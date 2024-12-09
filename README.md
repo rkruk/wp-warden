@@ -51,6 +51,8 @@ pip install requests pytz Jinja2
 - ENVATO_API_TOKEN: Envato API token for premium plugins and templates available at Envato website
 - EMAIL_ADDRESS: Email address used for sending notifications
 - EMAIL_PASSWORD: Password for the email address used
+- SMTP_SERVER: SMTP address
+- SMTP_PORT: SMTP Port (587 or else)
 - TO_EMAIL: Recipient email addresses (comma-separated)
 
 ## Configuration
