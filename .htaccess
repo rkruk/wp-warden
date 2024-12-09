@@ -1,0 +1,27 @@
+# Set environment variables for PHP script
+SetEnv AUTHORIZED_KEY "X-Auth-Key"
+SetEnv AUTHORIZED_VALUE "your_secret_key_here"
+# Set environment variable 'ALLOWED_IPS' with allowed client IP addresses and ranges
+SetEnv ALLOWED_IPS "127.0.0.1,
+192.0.2.1,
+192.0.2.2,
+192.30.252.0/22,
+185.199.108.0/22,
+140.82.112.0/20,
+2a0a:a440::/29"
+
+# Explanation:
+# - "127.0.0.1": Localhost, allows access from the local machine (useful for testing).
+# - "192.0.2.1", "192.0.2.2": Replace these with your own trusted IP addresses - otherwise you will be be in peculiar situation not being able to access it on you own.
+# - "192.30.252.0/22": GitHub Actions IPv4 address range.
+# - "185.199.108.0/22": GitHub Actions IPv4 address range.
+# - "140.82.112.0/20": GitHub Actions IPv4 address range.
+# - "2a0a:a440::/29": GitHub Actions IPv6 address range.
+#
+# Including GitHub Actions IP ranges allows your server to accept connections
+# from GitHub workflows, which may run on different IP addresses within these ranges.
+
+# Deny access to .htaccess file itself
+<Files ~ "^\.ht">
+    Require all denied
+</Files>
