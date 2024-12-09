@@ -1,6 +1,6 @@
 # Version Checker for WordPress Sites
 
-This repository contains code to perform automated checks on WordPress websites, specifically focusing on PHP, WordPress core, plugin, and theme versions. It also includes a GitHub Actions workflow to run these checks on a list of websites, providing essential information for website maintenance and security.
+This repository contains code to perform automated checks on WordPress websites, specifically focusing on PHP, WordPress core, plugin, and theme versions. It also includes a GitHub Actions workflow to run these checks on a list of websites, providing essential information for website maintenance and security. This tool is the public version of the tool I'm using to monitor various websites.
 
 ## Table of Contents
 
@@ -33,7 +33,7 @@ The `version-info.php` script in this repository retrieves version information f
 
 1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/rkruk/webby-public.git
+   git clone https://github.com/rkruk/wp-warden.git
    cd version-checker
    ```
 
