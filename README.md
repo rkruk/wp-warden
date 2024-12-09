@@ -134,9 +134,9 @@ full_check: false
 ## Security
 This repository uses an authorization key and IP allowlisting to ensure secure access to sensitive data. Consider these recommendations:
 
-- Keep YOUR_SECRET_KEY confidential and unique per site.
+- Keep YOUR_SECRET_KEY confidential.
 - Use HTTPS for requests to prevent interception.
-- Regularly update allowed_ips in version-info.php to restrict access.
+- Regularly monitor and update allowed_ips in version-info.php to restrict access.
   
 ## Contributing
 Feel free to open issues or submit pull requests. Contributions should focus on improving security, adding new checks, or optimizing the codebase.
