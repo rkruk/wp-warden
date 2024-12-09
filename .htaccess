@@ -1,6 +1,7 @@
 # Set environment variables for PHP script
 SetEnv AUTHORIZED_KEY "X-Auth-Key"
-SetEnv AUTHORIZED_VALUE "your_secret_key_here"
+# Replace with the secret Github key like f.e: GH_TOKEN:
+SetEnv AUTHORIZED_VALUE "your_secret_key_here" 
 # Set environment variable 'ALLOWED_IPS' with allowed client IP addresses and ranges
 SetEnv ALLOWED_IPS "127.0.0.1,
 192.0.2.1,
