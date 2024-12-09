@@ -433,7 +433,7 @@ def main():
 
         time.sleep(5)  # Rate limiting: pause for 5 seconds between requests. Some hosing are eager to ban anything bothering their servers with questions.. This value can be modified to accomodate that.
 
-    # Prepare email content
+    # Prepare email content with neccessary information:
     email_subject = "Installed PHP, WordPress & Plugins Version Check Results"
     email_body = """
     <html>
